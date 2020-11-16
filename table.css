@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+}
+
+.main__layout{
+    display: flex;
+    overflow-x: auto;
+}
+.res__table{
+display: table;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-right: 10px;
+}
+
+.res__table__tr{
+display: table-row;
+}
+
+.res__table__td{
+    display: table-cell;
+    padding: 20px;
+    border-bottom: solid 1px #000;
+}
+
+.title{
+    background: black;
+    color: white;
+}
+
+
+
